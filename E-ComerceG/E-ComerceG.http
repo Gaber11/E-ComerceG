@@ -1,0 +1,18 @@
+@E_ComerceG_HostAddress = https://localhost:7091
+
+### Get all products
+GET {{E_ComerceG_HostAddress}}/api/Products
+Accept: application/json
+
+### Get all brands
+GET {{E_ComerceG_HostAddress}}/api/Products/Brands
+Accept: application/json
+
+### Get all types
+GET {{E_ComerceG_HostAddress}}/api/Products/Types
+Accept: application/json
+
+### Get product by id
+GET {{E_ComerceG_HostAddress}}/api/Products/1
+Accept: application/json
+
